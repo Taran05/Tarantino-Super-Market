@@ -4,3 +4,9 @@ The site is currently under construction but will be completed very soon with ot
 
 # The site is deployed here:
 https://tarantniosupermarket.netlify.app/
+
+# Technologies Used:
+
+* HTML
+* CSS
+* JavaScript
