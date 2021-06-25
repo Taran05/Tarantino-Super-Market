@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tarantino Super-Market</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,531;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,531;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header class="header">
+		<div class="first">
+		<span class="intro">Save Upto 30% On Your First Order. Use Promo code : "MYFIRST" </span><span class="discount">SHOP NOW</span>
+		<a class="signup" id="signup">SIGN UP</a>
+		<div id="myModal1" class="modal1">
+ 	    <div class="modal-content1">
+    	 <span class="close1" id="close1">&times;</span>
+    	 <h1 id="head">SIGN UP NOW!</h1>
+    	 <br>
+    	 <form name="myForm" action="welcome.html" onsubmit="return validateForm()" method="post">
+       <input type="text" name="email" id="em" placeholder="Email..."><br><br><br>
+       <input type="password" name="pass" id="pw" placeholder="Password..."><br><br><br>
+       <input type="submit" value="Submit" id="val">
+      </form>
+    	</div>
+        </div>  
+		<a class="login" id="login">LOGIN</a>
+		<div id="myModal2" class="modal2">
+ 	    <div class="modal-content2">
+    	 <span class="close2">&times;</span>
+    	 <h1 id="head">LOGIN NOW!</h1>
+    	 <br>
+    	 <form name="myForm" action="welcome.html" onsubmit="return validateForm()" method="post">
+       <input type="text" name="email" id="em" placeholder="Email..."><br><br><br>
+       <input type="password" name="pass" id="pw" placeholder="Password..."><br><br><br>
+       <input type="submit" value="Submit" id="val">
+      </form>
+    	</div>
+        </div>  
+		<a href="contact.html" class="help">HELP</a>
+		<a href="mobile.html" class="cart"><img src="https://www.freeiconspng.com/thumbs/cart-icon/basket-cart-icon-27.png"></a>
+	</div>
+	<div class="second">
+		<img src="tarantino.png" id="logo">
+		 <input type="text" placeholder="Search.." class="search">
+	</div>
+	</header>
+	<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
+  <a href="mobile.html">About Us</a>
+  <a href="tv.html">Administrator</a>
+  <a href="food.html">Distributer</a>
+   <a href="furniture.html">Customer</a>
+     <a href="contact.html">Contact Us</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<br>
+<br>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+</div>
+
+<div class="mySlides fade">
+  <img src="p.jpg" id="ad">
+</div>
+
+<div class="mySlides fade">
+  <img src="food.jpg" id="ad">
+</div>
+
+<div class="mySlides fade">
+  <img src="furniture.jpg" id="ad">
+</div>
+
+<div class="mySlides fade">
+  <img src="kid.jpg" id="ad">
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+
+<footer class="footer">
+	<div class="about">
+        <h3>About</h3>
+        <ul>
+            <li> <a href="contact.html"> Contact Us</a></li>
+            <li> <a href="about.html"> About us</a></li>
+            <li> <a href="cons.html"> Carrers</a></li>
+            <li> <a href="cons.html"> Press</a></li>
+        </ul>
+    </div>
+    <div class="helper">
+          <h3>Help</h3>
+          <ul>
+            <li> <a href="cons.html"> Payments</a></li>
+            <li> <a href="cons.html"> Shipping</a></li>
+            <li> <a href="cons.html"> Cancellation and Returns</a></li>
+            <li> <a href="cons.html"> Report an issue</a></li>
+          </ul>
+        </div>
+        <div class="policy">
+          <h3>Policy</h3>
+          <ul>
+            <li> <a href="cons.html"> Return Policy</a></li>
+            <li> <a href="cons.html"> Time Of Use</a></li>
+            <li> <a href="cons.html"> Carrers</a></li>
+            <li> <a href="cons.html"> Privacy</a></li>
+          </ul>
+        </div>
+        <div class="mail">
+          <h3>Mail Us</h3>
+          <p>supermarket@tarantino.com<br>
+          jeevan50@tarantino.com</p><br>
+          
+        </div>
+        <div class="office">
+          <h3>Registered Office</h3>
+          <p>ROJAY Online Shopping<br>
+            6/21 R.J Complex<br>
+            <br>
+        
+             Fort Road,<br>
+
+            Delhi 458706</p>
+
+          
+        </div>
+</footer>
+
+ <script src="script.js"></script>
+</body>
+</html>

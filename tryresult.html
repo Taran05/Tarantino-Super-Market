@@ -1,0 +1,428 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head id="Head1"><title>
+	.
+</title>
+   
+    
+    
+    <style type="text/css">
+        body
+        {
+            margin: 0px;
+            background-image: url();
+            background-repeat: repeat-x;
+            background-position: top;
+            background-color: #FFFFFF;
+            width: 100%;
+            font-size: 12px;
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+        }
+       .MyTable
+          {
+    
+    height: 82px;
+          }
+
+
+.MyTable td, th
+    {
+    padding: 5px 5px 5px 5px;
+    border-top: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    text-align:left;
+    text-align:center;
+  }
+
+        .Tbtext
+        {
+            font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            color: #333333;
+            text-decoration: none;
+            text-align: left;
+            line-height: 21px;
+            padding-left: 2px;
+        }
+        .TBStyle
+        {
+            font-size: 12px;
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-weight: normal;
+            color: #000000;
+            text-decoration: none;
+            text-align: left;
+            border: #FFFFFF 0px solid;
+            width: auto;
+        }
+        .border
+        {
+            border: 1px solid #9A9A9A;
+            background-color: #FFFFFF;
+        }
+        .High
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            color: #000000;
+            font-weight: bold;
+            text-decoration: none;
+            line-height: 20PX;
+            border: 1px solid #9A9A9A;
+            background-color: #e9e9e9;
+        }
+        .lbl
+        {
+            text-align: left;
+            width: Auto;
+            height: Auto;
+        }
+        .style4
+        {
+            height: 98px;
+        }
+       
+
+        </style>
+    <script language="javascript" type="text/javascript">
+        function ClickToPrint() {
+            document.getElementById('btnp').style.display = 'none';
+            document.getElementById('btnc').style.display = 'none';
+            window.print();
+            document.getElementById('btnp').style.display = 'block';
+            document.getElementById('btnc').style.display = 'block';
+        }
+    </script>
+</head>
+<body data-new-gr-c-s-check-loaded="14.1000.0" data-gr-ext-installed="">
+    <form name="form1" method="get" action="./ViewResult_Medi.aspx?NRID=G%2f6VRuK%2fd5Q%3d&amp;ClassAcc=EELXBcAP0Ow%3d&amp;ClassID=YI2Xa8dlVZU%3d&amp;StudentID=+QgHTb15PkI%3d&amp;RollNo=qGXPvXHvPtKJiVFcaGvg4w%3d%3d&amp;ExamSessionID=LiEc2b%2fE88k%3d&amp;SessionName=dy4+UwDwzADVYjbN3RB6dQ%3d%3d&amp;SessionID=kdQMwcj0lE8%3d&amp;ShortName=C65R7Ywo6gQ%3d" id="form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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">
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="469044AF">
+</div>
+    <div id="PrintDiv">
+        <table align="center" border="0" cellpadding="0" cellspacing="1" style="width: 750px;height:1130px;">
+          
+            <tbody><tr>
+                <td style="width: 750px; height: 125px; text-align: center; vertical-align: top;">
+                    <br>
+                <table style="border: medium groove #000000; width: 750px;"><tbody><tr><td colspan="2" style="border-style: none; border-width: medium; border-color: #000000; font-weight: bold; font-size: large;">
+                   </td></tr>
+                <tr><td style="text-align: right;width:150px;" rowspan="2" align="right">   
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   
+                    <img id="Image1" src="../images/Final%20Logo.jpg" style="height:111px;width:116px;border-width:0px;">
+                    <br>
+                    </td>
+                    <td style="text-align: center" class="style4">
+                        <img id="Image2" src="../images/HeaderMedi.png" style="height:80px;width:398px;border-width:0px;">
+                    </td></tr>
+                <tr><td style="text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 18px; font-weight: bold; ">   
+                   
+                       GRADE CARD<br> <span id="lblSemester">EVEN</span>&nbsp;SEMESTER <span id="lblsessiontitle">MAY - 2020</span>
+                      
+                       <br>
+                       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                       <span id="Label1">Sr. No. </span><span id="lblSNo">10858</span>
+                      
+                    </td></tr>
+
+                     <tr><td style="border-style: groove none none none; border-width: thin; text-align: center; border-top-color: #000000;" colspan="2">   
+                   <table width="100%" style="font-family: 'Times New Roman', Times, serif; font-size: 16px">
+                   <tbody><tr>
+                   <td style="border-style: none none groove none; border-width: thin; border-color: #000000; width:100px; text-align:left;" height="30">Name</td>
+                   <td style="border-style: none groove groove groove; border-width: thin; border-color: #000000; width:150px; text-align:left;" height="30">
+                       &nbsp;
+                       <span id="lblName">TARANJOT SINGH</span></td>
+                  
+                   <td style="border-style: none none groove groove; border-width: thin; border-color: #000000; width:150px; text-align:left;" height="30" rowspan="7" valign="top">
+                       &nbsp;
+                       <img id="imgstudent" src="http://portal.medicaps.ac.in/AccSoft2/StudentPhoto/1800685_Stu_83855ef26d6e48a7a325d719df5d84b0_taranj.jpeg" style="height:200px;width:200px;border-width:0px;">
+                       </td>
+                   </tr>
+                    <tr>
+                   <td style="border-width: thin; border-color: #000000; width:100px; text-align:left; border-bottom-style: groove;" height="30">Father's Name</td>
+                   <td style="border-width: thin; border-color: #000000; width:200px; text-align:left; border-bottom-style: groove; border-right-style: groove; border-left-style: groove;" height="30">
+                       &nbsp;
+                       <span id="lblFatherName">GURVINDER SINGH</span></td>
+
+                   </tr>
+                    <tr>
+                   <td style="border-width: thin; width:100px; text-align:left; border-bottom-style: groove; border-top-color: #000000;" height="30">Enrollment No.</td>
+                   <td style="border-width: thin; width:150px; text-align:left; border-bottom-style: groove; border-top-color: #000000; border-right-style: groove; border-left-style: groove;" height="30">
+                       &nbsp;
+                       <span id="lblEnrollment">EN18CS301281</span></td>
+                  
+                   </tr>
+
+
+                    <tr style="display:none;">
+                   <td style="border-width: thin; width:100px; text-align:left; border-bottom-style: groove; border-top-color: #000000;" height="30">Aadhar No.*
+                            <strong style="font-size: 9px">
+                       <br>
+                       *Not Verified</strong></td>
+                   <td style="border-width: thin; width:150px; text-align:left; border-bottom-style: groove; border-top-color: #000000; border-right-style: groove; border-left-style: groove;" height="30">
+                       &nbsp;
+                       
+                       
+                       </td>
+                   
+                   </tr>
+
+                    <tr>
+                   <td style="border-width: thin; width:100px; text-align:left; border-bottom-style: groove; border-top-color: #000000;" height="30">Faculty</td>
+                   <td style="border-width: thin; width:150px; text-align:left; border-bottom-style: groove; border-top-color: #000000; border-right-style: groove; border-left-style: groove;" height="30">
+                       &nbsp;
+                       <span id="lblFaculty">Engineering</span></td>
+                
+                   </tr>
+
+                    <tr>
+                   <td style="border-width: thin; width:100px; text-align:left; border-bottom-style: groove; border-top-color: #000000;" height="30">Programme</td>
+                   <td style="border-width: thin; width:150px; text-align:left; border-bottom-style: groove; border-top-color: #000000; border-right-style: groove; border-left-style: groove;" height="30">
+                       &nbsp;
+                       <span id="lblProgramme">UG</span></td>
+                  
+                   </tr>
+
+                    <tr>
+                   <td style="border-width: thin; width:100px; text-align:left; border-bottom-style: groove; border-top-color: #000000;" height="30">Branch/Specialization</td>
+                   <td style="border-width: thin; width:150px; text-align:left; border-bottom-style: groove; border-top-color: #000000; border-right-style: groove; border-left-style: groove;" height="30">
+                       &nbsp;
+                       <span id="lblBranch">B.Tech. - CS</span></td>
+                  
+                   </tr>
+                   </tbody></table>
+                    </td></tr>
+
+                   
+                     <tr><td style="text-align: center;" colspan="2">   
+                   <div>
+	<table cellspacing="0" rules="all" border="1" id="GridView1" style="width:750px;border-collapse:collapse;">
+		<tbody><tr>
+			<th scope="col" style="height:50px;width:120px;">Course Code</th><th scope="col" style="width:300px;">Course Name</th><th scope="col" style="width:110px;">Course Credit</th><th scope="col" style="width:110px;">Credit Earned</th><th scope="col" style="width:110px;">Grade</th>
+		</tr><tr>
+			<td style="height:30px;">
+                            
+                                  <span id="GridView1_ctl02_lblSubjectCode">CS3CO08 (P)</span>
+                              </td><td align="left">
+                                  <span id="GridView1_ctl02_lblSubjectName" style="font-size:11px;">COMPUTER PROGRAMMING -II (P)</span>
+                              </td><td>
+                                  <span id="GridView1_ctl02_lblMaxCredits">1</span>
+                              </td><td>
+                                  <span id="GridView1_ctl02_lblEarncredit">1</span>
+                              </td><td>
+                                  <span id="GridView1_ctl02_lblGrade">O   </span>
+                              </td>
+		</tr><tr>
+			<td style="height:30px;">
+                            
+                                  <span id="GridView1_ctl03_lblSubjectCode">CS3CO08 (T)</span>
+                              </td><td align="left">
+                                  <span id="GridView1_ctl03_lblSubjectName" style="font-size:11px;">COMPUTER PROGRAMMING -II (T)</span>
+                              </td><td>
+                                  <span id="GridView1_ctl03_lblMaxCredits">2</span>
+                              </td><td>
+                                  <span id="GridView1_ctl03_lblEarncredit">2</span>
+                              </td><td>
+                                  <span id="GridView1_ctl03_lblGrade">O   </span>
+                              </td>
+		</tr><tr>
+			<td style="height:30px;">
+                            
+                                  <span id="GridView1_ctl04_lblSubjectCode">CS3CO09 (P)</span>
+                              </td><td align="left">
+                                  <span id="GridView1_ctl04_lblSubjectName" style="font-size:11px;">OPERATING SYSTEMS (P)</span>
+                              </td><td>
+                                  <span id="GridView1_ctl04_lblMaxCredits">1</span>
+                              </td><td>
+                                  <span id="GridView1_ctl04_lblEarncredit">1</span>
+                              </td><td>
+                                  <span id="GridView1_ctl04_lblGrade">O   </span>
+                              </td>
+		</tr><tr>
+			<td style="height:30px;">
+                            
+                                  <span id="GridView1_ctl05_lblSubjectCode">CS3CO09 (T)</span>
+                              </td><td align="left">
+                                  <span id="GridView1_ctl05_lblSubjectName" style="font-size:11px;">OPERATING SYSTEMS (T)</span>
+                              </td><td>
+                                  <span id="GridView1_ctl05_lblMaxCredits">4</span>
+                              </td><td>
+                                  <span id="GridView1_ctl05_lblEarncredit">4</span>
+                              </td><td>
+                                  <span id="GridView1_ctl05_lblGrade">O   </span>
+                              </td>
+		</tr><tr>
+			<td style="height:30px;">
+                            
+                                  <span id="GridView1_ctl06_lblSubjectCode">CS3CO10 (T)</span>
+                              </td><td align="left">
+                                  <span id="GridView1_ctl06_lblSubjectName" style="font-size:11px;">THEORY OF COMPUTATION (T)</span>
+                              </td><td>
+                                  <span id="GridView1_ctl06_lblMaxCredits">4</span>
+                              </td><td>
+                                  <span id="GridView1_ctl06_lblEarncredit">4</span>
+                              </td><td>
+                                  <span id="GridView1_ctl06_lblGrade">O   </span>
+                              </td>
+		</tr><tr>
+			<td style="height:30px;">
+                            
+                                  <span id="GridView1_ctl07_lblSubjectCode">CS3CO25 (P)</span>
+                              </td><td align="left">
+                                  <span id="GridView1_ctl07_lblSubjectName" style="font-size:11px;">DATABASE MANAGEMENT SYSTEMS (P)</span>
+                              </td><td>
+                                  <span id="GridView1_ctl07_lblMaxCredits">1</span>
+                              </td><td>
+                                  <span id="GridView1_ctl07_lblEarncredit">1</span>
+                              </td><td>
+                                  <span id="GridView1_ctl07_lblGrade">O   </span>
+                              </td>
+		</tr><tr>
+			<td style="height:30px;">
+                            
+                                  <span id="GridView1_ctl08_lblSubjectCode">CS3CO25 (T)</span>
+                              </td><td align="left">
+                                  <span id="GridView1_ctl08_lblSubjectName" style="font-size:11px;">DATABASE MANAGEMENT SYSTEMS (T)</span>
+                              </td><td>
+                                  <span id="GridView1_ctl08_lblMaxCredits">4</span>
+                              </td><td>
+                                  <span id="GridView1_ctl08_lblEarncredit">4</span>
+                              </td><td>
+                                  <span id="GridView1_ctl08_lblGrade">O   </span>
+                              </td>
+		</tr><tr>
+			<td style="height:30px;">
+                            
+                                  <span id="GridView1_ctl09_lblSubjectCode">CS3CO28 (T)</span>
+                              </td><td align="left">
+                                  <span id="GridView1_ctl09_lblSubjectName" style="font-size:11px;">DATA COMMUNICATION (T)</span>
+                              </td><td>
+                                  <span id="GridView1_ctl09_lblMaxCredits">3</span>
+                              </td><td>
+                                  <span id="GridView1_ctl09_lblEarncredit">3</span>
+                              </td><td>
+                                  <span id="GridView1_ctl09_lblGrade">O   </span>
+                              </td>
+		</tr><tr>
+			<td style="height:30px;">
+                            
+                                  <span id="GridView1_ctl10_lblSubjectCode">CS3ED06 (T)</span>
+                              </td><td align="left">
+                                  <span id="GridView1_ctl10_lblSubjectName" style="font-size:11px;">DATA SCIENCE (T)</span>
+                              </td><td>
+                                  <span id="GridView1_ctl10_lblMaxCredits">3</span>
+                              </td><td>
+                                  <span id="GridView1_ctl10_lblEarncredit">3</span>
+                              </td><td>
+                                  <span id="GridView1_ctl10_lblGrade">A+  </span>
+                              </td>
+		</tr><tr>
+			<td style="height:30px;">
+                            
+                                  <span id="GridView1_ctl11_lblSubjectCode">CS3ES12 (P)</span>
+                              </td><td align="left">
+                                  <span id="GridView1_ctl11_lblSubjectName" style="font-size:11px;">SOFTWARE WORKSHOP -I (P)</span>
+                              </td><td>
+                                  <span id="GridView1_ctl11_lblMaxCredits">1</span>
+                              </td><td>
+                                  <span id="GridView1_ctl11_lblEarncredit">1</span>
+                              </td><td>
+                                  <span id="GridView1_ctl11_lblGrade">O   </span>
+                              </td>
+		</tr><tr>
+			<td style="height:30px;">
+                            
+                                  <span id="GridView1_ctl12_lblSubjectCode">EN3MC01 (Q)</span>
+                              </td><td align="left">
+                                  <span id="GridView1_ctl12_lblSubjectName" style="font-size:11px;">OPEN LEARNING COURSES (Q)</span>
+                              </td><td>
+                                  <span id="GridView1_ctl12_lblMaxCredits">-</span>
+                              </td><td>
+                                  <span id="GridView1_ctl12_lblEarncredit">-</span>
+                              </td><td>
+                                  <span id="GridView1_ctl12_lblGrade">Q</span>
+                              </td>
+		</tr>
+	</tbody></table>
+</div>
+                    </td></tr>
+                <tr>
+                <td colspan="2">
+                  <table border="0" style="border-collapse: collapse; border-left: 1px solid #cccccc;
+                                        border-bottom: 1px solid #cccccc;" cellpadding="0" cellspacing="0" width="100%" class="MyTable" align="center">
+                <tbody><tr>
+                <td style="font-family: 'Times New Roman', Times, serif; font-size: 18px; font-weight: bold;" colspan="2">Current Semester Performance</td>
+                 <td style="font-family: 'Times New Roman', Times, serif; font-size: 18px; font-weight: bold;" colspan="2">Cumulative Performance</td>
+                </tr>
+               
+                <tr>
+                <td style=" font-family: 'Times New Roman', Times, serif; font-size: 18px; font-weight: bold; ">Credit Earned</td>
+                 <td style=" font-family: 'Times New Roman', Times, serif; font-size: 18px; font-weight: bold; ; ">SGPA</td>
+                  <td style=" font-family: 'Times New Roman', Times, serif; font-size: 18px; font-weight: bold; ">Total Credit Earned</td>
+                 <td style=" font-family: 'Times New Roman', Times, serif; font-size: 18px; font-weight: bold;">CGPA<strong>#</strong></td>
+                </tr>
+                <tr>
+                <td style="font-family: 'Times New Roman', Times, serif; font-size: 18px; font-weight: bold">
+                    <span id="lblCredit">24</span></td>
+                 <td style=" font-family: 'Times New Roman', Times, serif; font-size: 18px; font-weight: bold; ">
+                     <span id="lblSGPA">9.88</span></td>
+                  <td style="font-family: 'Times New Roman', Times, serif; font-size: 18px; font-weight: bold">
+                      <span id="lblTotalCE">98</span></td>
+                 <td style="font-family: 'Times New Roman', Times, serif; font-size: 18px; font-weight: bold">
+                     <span id="lblCGPA">9.32</span></td>
+                </tr>
+                </tbody></table>
+                <table width="100%">
+                <tbody><tr>
+                <td align="left" style="font-family: 'Times New Roman', Times, serif; font-size: 13px">
+                          <br>
+                <br>
+                Issue Date : <span id="lblIssueDt">10-Oct-2020</span>
+                
+                </td>
+                </tr>
+                <tr>
+                <td align="left" style="font-family: 'Times New Roman', Times, serif; font-size: 10px;">
+               <p style="font-family: 'Times New Roman', Times, serif; font-size: 13px;">
+                # The conversion from grade to an equivalent percentage in a given programme shall be according to : 
+                                     <br>
+                                     Percentage marks scored=(CGPA obtained*100)/10
+                 </p>
+                <br>
+                Note :- This is a Computer Generated Printout &amp; No Signature is Required
+                <br>
+                <br>
+                </td>
+                </tr>
+                </tbody></table>
+                </td>
+                </tr>
+                </tbody></table>
+                </td>
+            </tr>
+                            
+        </tbody></table>
+       
+        <table align="center" border="0" cellpadding="0" cellspacing="1" style="width: 700px;height:950px;">
+           
+           
+         
+            <tbody><tr>
+            <td>
+                <img id="Image5" src="../images/BackSide.png" style="width:730px;border-width:0px;">
+                <br>
+                
+               
+            </td>
+            </tr>
+        </tbody></table>
+
+       
+    </div>
+    </form>
+
+
+</body></html>

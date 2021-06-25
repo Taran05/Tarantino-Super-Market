@@ -1,0 +1,32 @@
+Hello Sir, below I have described my project :
+
+It is called Tarantino (I have named it after myself). It is an online supermarket and users can buy things like mobiles, tv, etc. 
+
+I have done all the minimal requirements along with what is expected from top performers according to the instructions provided in the pdf file. 
+
+I have also added some additional functionalities which were not required for this project. These are as follows :-
+
+1) Additional web pages (Category1, category2). I have created 5 web-pages (only 2 were required)
+2) The cart icon at top-right corner will take you to the Mobile shopping page, if you are on index.html. (It is not exactly a cart)
+3) The help menu is similar to the "contact us" page and it will redirect you there.
+4) The login and signup pages will take you to a "Welcome" page. Moreover, proper validation is done for both of them.
+5) There are some additional links in "footer" section like Payments, Shipping, etc which were not created yet, so if we click on them, it will take you to a page which displays the message "Page is under construction".
+6) The contact us page is also properly validated as per the requiremnets.
+7) In "about us" section, I have added two profiles.
+8) In the category1, category2 (Mobiles, TV, etc) pages, An image of the mentioned item is displayed along with it's name, price and short description.
+
+NOTE : I am also submitting screenshots corresponding to my project, which are very important because when I demonstrated my project during live seesions, it does not open properly in a different laptop.
+
+Little description about my screenshots :
+
+1) It is the "index.html" page which shows how my website looks initially.
+2) It shows "sign up modal" and if we enter wrong details, then the proper validation message also appears.
+3) It shows the  "contact us" page which also contains proper validation and displays various messages if user does not enter information properly.
+4) It shows the "about us" page which contains description about the supermarket as well as profile about 2 developers.
+5) It shows one of my category pages (Food.html) which contains 3 items in one row with proper images, name, short description and the price of all the items. 
+
+PS-> The footer also dispalys perfectly in my laptop but I can only attach 5 screenshots so I have chosen the 5 most important ones and can't attach that one.
+
+I hope you will like this. I will also add backend functionalities in future as I am a 3rd year engineering student so it is expected from me. I tried my best despite having online classes from 9am-5pm. 
+
+At last, I want to thank you and Internship Studio for helping me throughout live sessions. This journey was very fruitful for me. Thank You...
